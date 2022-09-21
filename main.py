@@ -116,20 +116,23 @@ print(test)
 test2 = (17834/34) > (87*56)
 print(test2)
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
-test3 = 
-
+# test3 = sqrt(25) == 5
+# print(test3)
 
 #############################################next week ################################################
 #dictionaries and  sets
 
 # dictionaries
 # another data structure that stores data that can be unstructured
-# employee = {'first_name': 'steven',
-#             'last_name': 'pretti',
-#              'weight': 37.2,
-#               'size': 5.77
-#              'height:' 6}
-# print(employee['weight'])
+employee = {'first_name': 'steven',
+            'last_name': 'pretti',
+             'weight': 37.2,
+              'size': 5.77,
+             'height': 6}
+print(employee['height'])
+warrior = {'made_by': 'hbomax','release_date':2018,
+          'budget': '24 million', 'rotten_tomatoes_score':'fresh'}
+print(warrior['release_date'])
 
 #challenge 1
 # Create a dictionary called my_dict that stores the following information about a person:
