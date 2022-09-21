@@ -68,7 +68,10 @@ print(raffle)
 # Add the name Gunther to the following set, using set methods:
 
 raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
-
+raffle.add('Gunther')
+raffle.add('Gilbert')
+raffle.add('Joe')
+print(raffle)
 #################################################booleans######################################################
 # booleans
 # a boolean can only have 2 values -- true or False
